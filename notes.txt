@@ -1,0 +1,9 @@
+
+https://www.elastic.co/blog/little-logstash-lessons-part-using-grok-mutate-type-data
+https://www.elastic.co/blog/logstash_lesson_elasticsearch_mapping
+
+curl --user elastic:changeme -XGET http://127.0.0.1:9200/logstash/_mapping?pretty
+
+
+docker-compose restart logstash
+
