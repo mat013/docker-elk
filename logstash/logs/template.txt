@@ -1,0 +1,16 @@
+2015-07-02 20:52:39 DEBUG HelloExample:19 - This is debug : hello 1
+2015-07-02 20:52:39 INFO  HelloExample:23 - This is info : hello 2
+2015-07-02 20:52:39 WARN  HelloExample:26 - This is warn : hello 3
+2015-07-02 20:52:39 ERROR HelloExample:27 - This is error : hello 4
+2015-07-02 20:52:39 FATAL HelloExample:28 - This is fatal : hello 5
+2015-02-20 21:45:01,682 ERROR com.example.demo.DemoApplication [main] fun
+java.lang.IllegalAccessException: null
+	at com.example.demo.DemoApplication.run(DemoApplication.java:22)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:804)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:788)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:15)
+2015-02-21 21:45:01,682 ERROR com.example.demo.DemoApplication [main] fun
+
