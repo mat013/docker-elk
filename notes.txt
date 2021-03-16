@@ -4,6 +4,11 @@ https://www.elastic.co/blog/logstash_lesson_elasticsearch_mapping
 
 curl --user elastic:changeme -XGET http://127.0.0.1:9200/logstash/_mapping?pretty
 
-
 docker-compose restart logstash
 
+http://localhost:5601
+http://localhost:9200/
+
+elastic changeme
+
+%{TIMESTAMP_ISO8601:timestamp}%{SPACE} %{LOGLEVEL:loglevel} %{INT:pid} --- \[(?<transkationsId>[^\]]*)\] \[(?<process>[^\]]*)\] \[(?<aktoer>[^\]]*)\] \[(?<thread>[^\]]*)\] %{NOTSPACE:logger} %{SPACE}: %{GREEDYDATA:message}
